@@ -8,7 +8,7 @@ body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
-  background: #111;
+  background-image: linear-gradient(to right top, #161515, #3e3b3b, #6b6467, #9a9298, #cac3cd);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,10 +23,11 @@ body {
 
 .slide {
   height: 80vh;
-  border-radius: 20px;
+  border-radius: 20px 100px / 120px;
   margin: 10px;
   cursor: pointer;
-  color:#fff;
+  color:#FF8280;
+  text-shadow: #111 0 2px 5px;
   flex: 1;
   background-size: cover;
   background-position: center;
@@ -39,7 +40,7 @@ body {
   position: absolute;
   font-size: 24px;
   bottom: 20px;
-  left: 20px;
+  left: 50px;
   margin: 0;
   opacity: 0;
 }
